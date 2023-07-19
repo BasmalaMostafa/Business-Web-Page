@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgba(0, 0, 0, 0.1);
+}
+.Home{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#ffff;
+    background-image: url("images/business-2.jpg");
+    height: 100%;
+    width: auto;
+    background-size: cover;
+    overflow: auto;
+}
+.layer{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    overflow: auto;
+}
+
+.Home p{
+    text-align: center;
+    padding-top: 50%;
+}
+.Home .fPragraph{
+margin-top: -32%;
+font-size: 20px;
+}
+.Home .sPragraph{
+    font-size: 2.7em;
+    margin-top: -48%;
+}
+.Home button ,.Secret-Section button{
+    color:#ffff;
+    text-align: center;
+    padding: 14px;
+    font-size:10px;
+    background-color: #27ad23;
+    border: none;
+    border-radius: 5%;
+    font-weight: bolder;
+
+}
+.Home .button{
+    text-align: center;
+    margin-top: 4%;
+}
+.button button:hover{
+    border: 2px #ffffff solid;
+    cursor: pointer;
+}
+.nav ul{
+    list-style: none;
+}
+.nav{
+    color:#ffff;
+    overflow: auto;
+}
+.nav ul li{
+   float:right;
+   overflow: hidden;
+   padding-top:20px ;
+   padding-bottom:20px ;
+}
+.nav a{
+     color:#ffff;
+     font-weight: bold;
+    text-decoration: none;
+    padding: 15px;
+}
+.nav h1{
+    padding-left: 50px;
+    padding-top: 5px;
+}
+.nav li a:hover{
+    color:#27ad23;
+    border-bottom: 2px #27ad23 solid;
+}
+.setting img{
+padding-top: 20%;
+cursor: pointer;
+position: fixed;
+right:0;
+}
+.feature{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    width: 33.333333333%;
+    overflow:auto;
+}
+.imgfeature{
+    float: left;
+    width: 22%;
+}
+.description{
+    font-weight: normal;
+    width: 77%;
+    float: left;
+}
+.description p{
+    color:#10111179;
+    padding-top: 10px;
+}
+.features{
+    overflow:auto;
+    width: 90%;
+    margin: auto;
+    margin-top:6%;
+    margin-bottom:7%;
+    padding-bottom: 7%;
+}
+.background{
+    background-color: #ffffff;
+}
+.service{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.service h2 , .Secret-Section h2{
+    font-weight: normal;
+    font-size: 2em;
+    color: rgb(49, 44, 44);
+}
+.service p{
+    color:#10111179;
+    padding-top: 10px;
+}
+.items{
+    overflow: auto;
+    width: 90%;
+    margin: 30px auto;
+} 
+.items .item{
+float: left;
+width: 27%;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-left: 2%;
+}
+.item .Des p{
+    
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.item .Des{
+    position: relative;
+    width: 101%;
+    padding-right: 2px;
+    padding-bottom: 30px;
+    background-color:#ffffff ;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+}
+.item h3{
+    text-align: left;
+    margin-left: 5%;
+    color:rgba(0, 0, 0, 0.8);
+    padding-top: 15px;
+    font-weight: 500;
+    font-size: 17px;
+}
+.item button{
+    position: absolute;
+    left: 4%;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    background-color: #ffffff;
+}
+.Secret-Section{
+    margin-top: 5%;
+    padding-right: 30px;
+    padding-top:10px ;
+    background-color: #ffffff;
+    overflow: auto;
+    width: 80%;
+    margin: auto;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 13%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 10px;
+}
+.Secret-Section img{
+    float: right;
+    height: 77%;
+    padding-left: 60px;
+}
+.Secret-Section h2,.Secret-Section p,.Secret-Section ul{
+    padding:10px 0px 10px 10px;
+    width: 40%;
+}
+.Secret-Section ul{
+    padding-left: 20px;
+    list-style-type: none;
+    padding-top: 30px;
+}
+.Secret-Section ul li{
+    background-image:url(images/rightpic.png) ;
+    background-size: 1.6rem 1.6rem;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+.Secret-Section button{
+   margin-left: 20px;
+}
+.Secret-Section button:hover{
+    border: 2px rgba(0, 0, 0, 0.2) solid;
+    cursor: pointer;
+}
